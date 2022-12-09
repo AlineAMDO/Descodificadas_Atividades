@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+        <title>Adopet</title>
+    </head>
+    <body>
+        <header>
+        <nav>
+            <a href="index.html" class="home"><b>Home</b></a>
+        </nav>
+
+            <img class="logoB" src="imagens/Logo.png" alt="Logo Adopet branco">
+            <div class="titulo"> <h1>Semana de adoção</h1></div>
+            <img class="balao" src="imagens/contato.png" alt="banner contato">
+        </header>
+
+        <div class="formulario">
+            <h1 class="msg"> Deixe sua mensagem:</h1>
+
+        <form>
+            <label>Nome:</label><br>
+            <input type="text" name="user_name" id="userName" placeholder="Nome"/>
+            <br><br>
+            <label for="userEmail">E-mail:</label><br>
+            <input type="email" name="user_email" id="userEmail" placeholder="Email"/>
+            <br><br>
+            <label for="text">Mensagem:</label><br>
+            <textarea name="mensage" id="mensage" cols="30" rows="4" placeholder="Escreva aqui a sua mensagem"></textarea>
+            <br><br>
+            <input class="enviar" type="submit" value="Enviar" onclick="msg()"/><br><br>
+        </form>
+        
+        <script>
+            
+            function msg() {
+            
+              alert("Sua mensagem foi enviada com sucesso!");
+            
+            }
+            
+        </script>
+        </div>
+
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Gp778ZAJ_qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+        <footer class="assinaturacontato">
+            <p>Copyright       2022  <br><br>
+                criado por Aline Oliveira
+            </p>
+        </footer>
+
+    </body>
+
+</html>
+
+
+   

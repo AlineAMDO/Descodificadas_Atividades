@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+        <title>Adopet</title>
+    </head>
+    <body>
+        <header>
+        <nav>
+            <a href="index.html" class="home"><b>Home</b></a>
+            <a href="contato.html" class="contato"><b>Contato</b></a>
+        </nav>
+
+            <img class="logoB" src="imagens/Logo.png" alt="Logo Adopet branco">
+            <h1 class="titulo">Semana de adoção</h1>
+        </header>
+
+            <img src="imagens/banner.png" alt="banner com pets">
+
+            <img class="logoazulcadastro" src="imagens/Logo_-_azul.png" alt="logo adopet azul">
+
+            <h1 class="cadastrarpreto">Quero me cadastrar</h1>
+
+        <div class="formulariocadastro">
+            <h2>Ainda não tem cadastro?<br>
+            Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</h2><br><br>
+
+            <p>Cadastro Adopet:</p><br>
+
+            <form>
+                <label>Nome:</label><br>
+                <input type="text" name="user_name" id="userName" placeholder="Nome"/>
+                <br><br>
+                <label>Data de nascimento:</label><br>
+                <input type="date" name="nascimento">
+                <br><br>
+                <label for="userEmail">E-mail:</label><br>
+                <input type="email" name="user_email" id="userEmail" placeholder="Email"/>
+                <br><br>
+                <label for="password">Senha:</label><br>
+                <input type="password" name="user_password" id="userPassword" placeholder="Password"/>
+                <br><br>
+                <label for="password">Confirme sua senha:</label><br>
+                <input type="password" name="user_password" id="userPassword" placeholder="Password"/>
+                <br><br>
+                <input type="checkbox" name="termos" value="aceitarTermos">   Declaro que li e concordo com os Termos de Privacidade <br><br>
+                <input class="enviar" type="submit" value="Cadastrar" onclick="msg()"/>  <br><br>    
+            </form>
+
+            <script>
+            
+                function msg() {
+                
+                  alert("Cadastro efetuado com sucesso!");
+                
+                }
+                
+            </script>
+
+        </div>
+
+            <div class="videocadastro" ><iframe width="560" height="315" src="https://www.youtube.com/embed/hjOY9BVqtlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+        <footer class="assinaturacadastro">
+            <p>Copyright       2022  <br><br>
+                criado por Aline Oliveira
+            </p>
+        </footer>
+
+    </body>
+
+</html>

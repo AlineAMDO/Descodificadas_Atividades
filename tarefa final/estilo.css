@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header {
+    background-color: gray;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 70px;
+}
+
+.logoB {
+    position: absolute;
+    top: 2%;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.tenho {
+    position: absolute;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    top: 150px;
+    left: 150px;
+}
+
+.cadastrarpreto {
+    position: absolute;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    top: 150px;
+    left: 150px;
+}
+
+.titulo {
+    position: absolute;
+    top: 8%;
+    padding-left: 320px;
+}
+
+.balao {
+    position: absolute;
+    top: 130px;
+}
+
+.home {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1000px;
+}
+.contato {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+}
+
+.dias {
+    position: absolute;
+    top: 30%;
+    padding-left: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pnome {
+    font-size: 70px;
+}
+
+.boasvindas {
+    background-color: rgb(243, 205, 38);
+    padding: 50px;
+    padding-bottom: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textoboasvindas {
+    position: absolute;
+    text-align: center;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+.ilustracao {
+    position: absolute;
+    width: 200px;
+    padding-left: 500px;
+    top: 30%;
+    bottom: 2%;
+}
+
+.jatenho {
+    position: absolute;
+    padding-left: 222px;
+    padding-right: 222px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    top: 110%;
+    left: 15%;
+}
+
+.cadastrar {
+    position: absolute;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    top: 125%;
+    left: 15%;
+}
+
+.video1 {
+    position: relative;
+    height: 400px;
+    top: 50px;
+    padding-left: 400px;
+}
+
+.logoazul {
+    position: relative;
+    width: 500px;
+    padding: 20px;
+    left: 400px;
+}
+
+.logoazulcadastro {
+    position: absolute;
+    width: 500px;
+    padding: 20px;
+    left: 300px;
+    top: 550px;
+}
+
+.ola {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.animais {
+    background-color:rgb(243, 205, 38);
+    height: 1350px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.amora {
+    position: absolute;
+    left: 100px;
+}
+
+.dunga {
+    position: absolute;
+    left: 500px;
+}
+
+.felicia {
+    position: absolute;
+    left: 900px;
+}
+
+.fiona {
+    position: absolute;
+    left: 100px;
+    top: 2350px;
+}
+
+.lua {
+    position: absolute;
+    left: 500px;
+    top: 2350px;
+}
+
+.sid {
+    position: absolute;
+    left: 900px;
+    top: 2350px;
+}
+
+.sirius {
+    position: absolute;
+    left: 100px;
+    top: 2750px;
+}
+
+.yoda {
+    position: absolute;
+    left: 500px;
+    top: 2750px;
+}
+
+.zelda {
+    position: absolute;
+    left: 900px;
+    top: 2750px;
+}
+
+h3 {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.praca {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.largo1 {
+    position: absolute;
+    width: 300px;
+    left: 250px;
+    top: 3550px
+}
+
+.largo2{
+    position: absolute;
+    width: 300px;
+    left: 250px;
+}
+
+.mapa {
+    position: absolute;
+    left: 600px;
+}
+
+.assinatura {
+    position: absolute;
+    top: 3800px;
+    text-align: center;
+    left: 550px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.msg {
+    color: black;
+}
+
+.formulario {
+    position: absolute;
+    top: 520px;
+    left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulariotenho {
+    position: absolute;
+    top: 600px;
+    left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulariocadastro {
+    position: absolute;
+    top: 750px;
+    left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enviar {
+    width: 100px;
+    height: 40px;
+}
+
+.video {
+    position: absolute;
+    top: 900px;
+    left: 80px;
+}
+
+.videocadastro {
+    position: absolute;
+    top: 1300px;
+    left: 80px;
+}
+
+.assinaturacontato {
+    position: absolute;
+    top: 1250px;
+    text-align: center;
+    left: 550px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.assinaturatenho {
+    position: absolute;
+    top: 1000px;
+    text-align: center;
+    left: 550px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.assinaturacadastro {
+    position: absolute;
+    top: 1650px;
+    text-align: center;
+    left: 550px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
